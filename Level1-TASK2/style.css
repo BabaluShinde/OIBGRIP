@@ -414,6 +414,12 @@ section .title::after{
     background: lightgrey;
     position: relative;
 }
+.skills .skills-content .right .python::before{
+    width: 75%;
+}
+.skills .skills-content .right .sql::before{
+    width: 75%;
+}
 .skills .skills-content .right .line::before{
     content: "";
     position: absolute;
@@ -423,13 +429,13 @@ section .title::after{
     background: rgb(20, 153, 220);
 }
 .skills-content .right .tw::before{
-    width: 70%;
+    width: 100%;
 }
 .skills-content .right .gc::before{
     width: 45%;
 }
 .skills-content .right .cl::before{
-    width: 40%;
+    width: 50%;
 }
 .skills-content .right .h::before{
     width: 100%;
